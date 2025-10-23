@@ -85,7 +85,7 @@ const main = async () => {
                         + `<a href="${EXPLORER_URL}/tx/${txHash}">View on Explorer</a>\n`
 
                 } else if (action === 'burn') {
-                    msg = `🔥 ${formatBigNumber(Number(tokens[0].ui_amount))} <a href="${EXPLORER_URL}/token/${tokens[0].address}">${tokens[0].symbol}</a> ($${formatBigNumber(Number(valueUsd))}) was burnt \n`
+                    msg = `🔥 ${formatBigNumber(Number(tokens[0].ui_amount))} <a href="${EXPLORER_URL}/token/${tokens[0].address}">${tokens[0].symbol}</a> ($${formatBigNumber(Number(valueUsd))}) was burned \n`
                         + `User: <code>${participants[0].address}</code>\n`
                         + `<a href="${EXPLORER_URL}/tx/${txHash}">View on Explorer</a>\n`
                 }
