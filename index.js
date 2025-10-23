@@ -45,7 +45,7 @@ const main = async () => {
 
         // Send the DEX message after connection is established
         const message = {
-            type: 'STABLE_COINS',
+            type: 'STABLE_COIN',
             min_value_usd: Number(process.env.THRESHOLD_VALUE_USD)
         }
         ws.send(JSON.stringify(message))
