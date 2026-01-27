@@ -1,5 +1,5 @@
-# VENUS WHALE TRACKING BOT
-Tracking all action supply, borrow, flash_loan, liquidate on Venus Protocol (BSC)
+# WHALE TRACKING BOT
+Tracking whale mint/burn stable coin action
 
 This repository is open source. You can update a few line of code to tracking other protocols
 
